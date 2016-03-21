@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<llistaSeriable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mailDesti>aa@aa.com</mailDesti>
+  <scriptsInput>
+    <scriptSeriable>
+      <nom>estatica1.ps1</nom>
+      <nomsParms />
+      <valorsParms />
+      <parametresComplerts>true</parametresComplerts>
+      <addSubstract>true</addSubstract>
+      <input>true</input>
+    </scriptSeriable>
+  </scriptsInput>
+  <scriptsOutput>
+    <scriptSeriable>
+      <nom>localExchange.ps1</nom>
+      <nomsParms>
+        <string>nomeslocal</string>
+        <string>ocult</string>
+        <string>nomllarg</string>
+        <string>moderador</string>
+      </nomsParms>
+      <valorsParms>
+        <string>-disabled-</string>
+        <string>-disabled-</string>
+        <string />
+        <string />
+      </valorsParms>
+      <parametresComplerts>true</parametresComplerts>
+      <addSubstract>true</addSubstract>
+      <input>false</input>
+    </scriptSeriable>
+  </scriptsOutput>
+</llistaSeriable>

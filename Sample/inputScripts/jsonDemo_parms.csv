@@ -1,0 +1,20 @@
+esDeptManager,si
+esDeptManager,no
+nombresDept,d009,sala 9
+nombresDept,d005,sala 5
+nombresDept,d002,sala 2
+nombresDept,d003,sala 3
+nombresDept,d001,sala 1
+nombresDept,d004,sala 4
+nombresDept,d006,sala 6
+nombresDept,d008,sala 8
+nombresDept,d007,sala 7
+sexes,M
+sexes,F
+titulacions,Senior Engineer
+titulacions,Staff
+titulacions,Engineer
+titulacions,Senior Staff
+titulacions,Assistant Engineer
+titulacions,Technique Leader
+titulacions,Manager

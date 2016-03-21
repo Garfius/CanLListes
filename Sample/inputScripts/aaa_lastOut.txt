@@ -1,0 +1,9 @@
+Cadena executada: "& "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\inputScripts\aaa.ps1""
+-----------------------------------
+rloshumberto.hurtado@uoc.test
+uanluis.florenciano@uoc.test
+quel.paiva@uoc.test
+uardo.santamaria@uoc.test
+anciscojavier.marin@uoc.test
+nasi.arranz@uoc.test
+bert.palou@uoc.test

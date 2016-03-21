@@ -1,0 +1,1204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sample</name>
+    </assembly>
+    <members>
+        <member name="T:CanLlistes.fluxSeriable">
+            <summary>
+            objecte que representa un flux en estat seriable
+            </summary>
+        </member>
+        <member name="F:CanLlistes.fluxSeriable.mailDesti">
+            <summary>
+            nom de la adreça de distribució desitjada
+            </summary>
+        </member>
+        <member name="F:CanLlistes.fluxSeriable.scriptsInput">
+            <summary>
+            llista de scripts d'entrada
+            </summary>
+        </member>
+        <member name="F:CanLlistes.fluxSeriable.scriptsOutput">
+            <summary>
+            llista de scripts de sortida
+            </summary>
+        </member>
+        <member name="T:CanLlistes.scriptSeriable">
+            <summary>
+            objecte seriable que representa un script d'entrada o sortida
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.nom">
+            <summary>
+            nom del script, convé que existeixi en la carpeta corresponent
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.nomsParms">
+            <summary>
+            noms dels paràmetres del script
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.valorsParms">
+            <summary>
+            valors corresponents als paràmetres de nom, ha de mantenir relació de 1 a 1, bijectiva
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.interficieSortidaSencera">
+            <summary>
+            en el cas de representar un script de sortida, registra si el script disposa tots els paràmetres que conformen la interficie de sortida
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.addSubstract">
+            <summary>
+            en el cas de correspondre a un script d'entrada, determina si s'ha de sumar o restar del flux
+            </summary>
+        </member>
+        <member name="F:CanLlistes.scriptSeriable.input">
+            <summary>
+            si és d'entrada o sortida
+            </summary>
+        </member>
+        <member name="T:CanLlistes.script">
+            <summary>
+            objecte que representa un script d'entrada o sortida, amb els objectes de treball Web
+            </summary>
+        </member>
+        <member name="F:CanLlistes.script.nom">
+            <summary>
+            nom del script, convé que existeixi en la carpeta corresponent
+            </summary>
+        </member>
+        <member name="F:CanLlistes.script.parametresObjectes">
+            <summary>
+            llistat en forma de diccionari dels objectes de treball web que representen els paràmetres al respecte d'aquest script
+            </summary>
+        </member>
+        <member name="F:CanLlistes.script.interficieSortidaSencera">
+            <summary>
+            en el cas de representar un script de sortida, registra si el script disposa tots els paràmetres que conformen la interficie de sortida
+            </summary>
+        </member>
+        <member name="F:CanLlistes.script.input">
+            <summary>
+            si és d'entrada o sortida
+            </summary>
+        </member>
+        <member name="T:CanLlistes.flux">
+            <summary>
+            objecte que representa un flux en estat de treball
+            </summary>
+        </member>
+        <member name="F:CanLlistes.flux.targetMail">
+            <summary>
+            la adreça de difució que es preté sigui creada
+            </summary>
+        </member>
+        <member name="F:CanLlistes.flux.scriptsInput">
+            <summary>
+            llista de scripts d'entrada
+            </summary>
+        </member>
+        <member name="F:CanLlistes.flux.scriptsOutput">
+            <summary>
+            llista de scripts de sortida
+            </summary>
+        </member>
+        <member name="T:CanLlistes.controlSessio">
+            <summary>
+            Classe que representa una sessió, amb totes les funcionalitats que necessita per funcionar
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.nomRadioButtonPosaTreu">
+            <summary>
+            Per pre-fixar el codi corresponent a el botó web de posar o treure
+            </summary>
+            <remarks>Queda desat en el XML</remarks>
+        </member>
+        <member name="F:CanLlistes.controlSessio.XMLsFolder">
+            <summary>
+            nom carpeta de treball en la que es desen els XML
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.scriptsLlistesFolder">
+            <summary>
+            nom carpeta de treball en la que es desen els compilats en ps1 de les llistes
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.inputScriptsFolder">
+            <summary>
+            nom carpeta de treball on s'han de situar els scripts que actuen com a connectors d'entrada
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.outputScriptsFolder">
+            <summary>
+            nom carpeta de treball on s'han de situar els scripts que actuen com a connectors de sortida
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.logFolder">
+             <summary>
+             nom carpeta en la que es desa el arxiu de registre
+             </summary>
+            <remarks>ha d'existir, no la crea</remarks>
+        </member>
+        <member name="F:CanLlistes.controlSessio.appendPerCSV">
+            <summary>
+            annexe amb el que es cerca l'arxiu de valors de paràmetre
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.separadorCSV">
+            <summary>
+            caràcter amb el que s'interpreta el csv
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.appendPerOUT">
+            <summary>
+            Annex que ha de rebre, i que es cerca els resultats d'execució
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.valorParmDisabled">
+            <summary>
+            valor de mostra i desat en xml que s'utilitza per a desactivar un paràmetre de valors prefixats
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.scripResta">
+            <summary>
+            nom del script extern que actua com a restador de línies 
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.arxiuResultatUltimInput">
+            <summary>
+            conté el nom de l'arxiu del últim output generat
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.fluxeExecucio">
+            <summary>
+            objecte asíncron d'execució, ha de ser null si no s'usa
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.parametresNecessarisScripsSortida">
+            <summary>
+            llista de tres valors prefixada, amb el conjunt de paràmetres que conformen la interfície sencera d'un script de sortida
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.idioma">
+            <summary>
+            cultura donada per el navegador en thisSession sessió
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.IpRemota">
+            <summary>
+            ip remota de l'usuari
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.sessionList">
+            <summary>
+            en el cas quue s'estigui editant un flux, esta contingut aqui
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.scriptEditant">
+            <summary>
+            en el cas quue s'estigui editant un script, esta contingut aqui
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.sessionID">
+            <summary>
+            ID hash de la sessió que representa aquest objecte
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.xmlExecutant">
+            <summary>
+            en el cas que s'estigui executant un flux, aqui hi ha d'haver el nom del seu XML
+            </summary>
+        </member>
+        <member name="F:CanLlistes.controlSessio.iniciExecucioAsincrona">
+            <summary>
+            conté el moment d'inici de l'execució
+            </summary>
+        </member>
+        <member name="M:CanLlistes.controlSessio.logueja(System.String)">
+            <summary>
+            desa en l'arxiu de registre, amb marca de data
+            </summary>
+            <param name="texte">text a registrar</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.borraFlux(System.String)">
+            <summary>
+            inicia la creació i execució del script que ha de eliminar un flux i la/es llista corresponents
+            </summary>
+            <param name="XMLfile">Arxiu xml del que s'ha de borrar tot</param>
+            <returns>si ha anat be torna true</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.carregaLlista(System.String)">
+            <summary>
+            carrega en objecte de sessió l'arxiu xml en forma d'objectes web
+            </summary>
+            <param name="arxiu">arxiu xml d'entrada</param>
+            <returns>true si ha carregat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.listItemDeXMLs(System.Web.UI.WebControls.ListItemCollection,System.Web.HttpContext)">
+            <summary>
+            retorna un listbox tipus web amb tots els XML's formatat per ser vist
+            </summary>
+            <param name="llistaRetorna">objecte Web que retorna per ref.</param>
+            <param name="contexte">li cal el context per poder consultar el global</param>
+            <returns></returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.listItemScriptsInput(System.Web.UI.WebControls.ListItemCollection)">
+            <summary>
+            retorna un listbox tipus web amb tots els scripts d'entrada
+            </summary>
+            <param name="llistaRetorna">by ref. la llista a omplir</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.listItemScriptsOutput(System.Web.UI.WebControls.ListItemCollection)">
+            <summary>
+            retorna un listbox tipus web amb tots els scripts d'entrada
+            </summary>
+            <param name="llistaRetorna">by ref. la llista a omplir</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.desaFluxEditant">
+            <summary>
+            desa en arxiu xml del nom del correu del flux en edició la llista que s'esta editant
+            </summary>
+            <returns>true si ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.afegeixScriptDesDArxiu(System.String,System.Boolean)">
+            <summary>
+            carrega i deixa preparat en la llista de la sessió el arxiu script connector
+            </summary>
+            <param name="nom">nom del script connector</param>
+            <param name="input">en les d'entrada o sortida?</param>
+            <returns>true si ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.ultimaSortidaScriptEditant(System.Boolean)">
+            <summary>
+            dona, si existeix el text del últim output del script corresponent al que s'esta editant i s'allotja en var. d'estat
+            </summary>
+            <param name="input">si és d'entrada o sortida</param>
+            <returns>cadena de text amb el resultat</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.creaLlistaEstatica(System.String,System.String)">
+            <summary>
+            crea un script d'entrada que retorna per StdOut els mails passats per paràmetre
+            </summary>
+            <param name="nomScript">nom que ha de prendre l'arxiu</param>
+            <param name="mails">llistat de mails amb salts de línia </param>
+            <returns>true si ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.creaScriptDeLlista(CanLlistes.flux)">
+            <summary>
+            crea el script compilat que representa el flux que es dona
+            </summary>
+            <param name="llistaACompilar">el flux a compilar en script ps1</param>
+            <returns>true si ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.ultimaSortidaDeLlista(System.String)">
+            <summary>
+            dona, si existeix el text del últim output del flux desitjat
+            </summary>
+            <param name="llistaAMirar">nom del xml o script</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.pujaItem(System.Web.UI.WebControls.ListBox,System.Boolean)">
+            <summary>
+            mou amunt si es pot l'item seleccionat
+            </summary>
+            <param name="llistaATocar">listbox a tractar</param>
+            <param name="input">si és d'entrada o sortida</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.baixaItem(System.Web.UI.WebControls.ListBox,System.Boolean)">
+            <summary>
+            baixa si es pot l'item seleccionat
+            </summary>
+            <param name="llistaATocar">listbox a tractar</param>
+            <param name="input">si és d'entrada o sortida</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.ompleListBoxDeScripts(System.Web.UI.WebControls.ListBox,System.Boolean)">
+            <summary>
+            omple l'objecte per ref. amb els scripts de la carpeta corresponent
+            </summary>
+            <param name="listBoxDesti">listbox a tractar</param>
+            <param name="input">si és d'entrada o sortida</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.executaScriptEditant(System.String@,System.String@,System.String@,System.Boolean)">
+            <summary>
+            executa sincronament el script que s'està editant
+            </summary>
+            <param name="standardOutput">by ref. retorna el resultat de StdOut</param>
+            <param name="errorOutput">by ref. retorna el resultat de StdErr formatat</param>
+            <param name="path">retorna la cadena executada</param>
+            <param name="input">entrada o sortida?</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.comprovaValorsPerCrearEstatica(System.String,System.String)">
+            <summary>
+            comprova el nom i mails si son correctes
+            </summary>
+            <param name="nomScript">nom desitjat</param>
+            <param name="correus">correus a posar-hi</param>
+            <returns>true si tot esta be</returns>
+            <remarks>per usar abans de crear</remarks>
+        </member>
+        <member name="M:CanLlistes.controlSessio.executaXMLAsincron(System.String)">
+            <summary>
+            llença la execució asíncrona del ps1 corresponent al xml donat
+            </summary>
+            <param name="XMLfile">xml del flux que es vol executar</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.StartTheThread(System.String)">
+            <summary>
+            inicia el thread
+            </summary>
+            <param name="param1">ordre a executar</param>
+            <remarks>d'ús explusiu per executaXMLAsincron</remarks>
+        </member>
+        <member name="M:CanLlistes.controlSessio.despresScriptAsincron">
+            <summary>
+            neteja les variables s'estat despres de la execució asíncrona
+            </summary>
+        </member>
+        <member name="M:CanLlistes.controlSessio.execucioSimple(System.String)">
+            <summary>
+            inicia la execució
+            </summary>
+            <param name="path">ordre</param>
+            <remarks>d'ús exclusiu per StartTheThread</remarks>
+        </member>
+        <member name="M:CanLlistes.controlSessio.creaScriptSuicida(System.String)">
+            <summary>
+            crea el script que ha d'eliminar el flux i la/es llista associades
+            </summary>
+            <param name="XMLfile">xml del que es preté eliminar tot</param>
+            <returns>true si ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.fluxSeriableDeFlux(CanLlistes.flux)">
+            <summary>
+            retorna l'objecte seriable corresponent al flux passat
+            </summary>
+            <param name="llistaAPassar">flux amb ojectes Web</param>
+            <returns>flux seriable sense objectes web</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.scriptDesableDeScript(CanLlistes.script)">
+            <summary>
+            retorna l'objecte seriable corresponent al script passat
+            </summary>
+            <param name="scriptAPassar">script amb ojectes Web</param>
+            <returns>script sense objectes web</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.creaISeleccionaObjectesDesDeParametres(CanLlistes.fluxSeriable)">
+            <summary>
+            converteix en objecte de treball web l'objecte de flux seriable
+            </summary>
+            <param name="llistaEntrada">flux seriable, de xml potser</param>
+            <returns>flux tractable en Web</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.diccioParametres(System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            crea el diccionari que ha de residir en cada script per poder-se tractar en web
+            </summary>
+            <param name="arxiuScript">nom del script per buscar paràmetres</param>
+            <param name="parms">paràmetres a buscar</param>
+            <param name="input">entrada o sortida? Molt diferent</param>
+            <returns>el diccionari amb objectes web</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.seleccionaValorsEnObjectes(CanLlistes.script@,CanLlistes.scriptSeriable)">
+            <summary>
+            selecciona els valors 
+            </summary>
+            <param name="scriptASeleccionar">script amb objectes web</param>
+            <param name="scriptAmbValors">script amb valors dels paràmetres</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.carregaObjecteDesdeXML(CanLlistes.fluxSeriable@,System.String)">
+            <summary>
+            carrega des de arxiu xml a llista seriable 
+            </summary>
+            <param name="objectOut">retorna by ref. l'objecte equivalent al xml</param>
+            <param name="fileName">arxiu a llegir</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.listItemDeScripts(System.String,System.Web.UI.WebControls.ListItemCollection)">
+            <summary>
+            retorna objecte web amb scripts ps1 de la carpeta indicada
+            </summary>
+            <param name="folder">carpeta a mirar</param>
+            <param name="llistaRetorna">by ref. la llista retornada</param>
+        </member>
+        <member name="M:CanLlistes.controlSessio.desaObjecteEnXML(CanLlistes.fluxSeriable,System.String)">
+            <summary>
+            desa objecte seriable en arxiu indicat
+            </summary>
+            <param name="serializableObject">objecte a desar</param>
+            <param name="fileName">arxiu on fer-ho</param>
+            <returns>true si tot ha anat be</returns>
+            <remarks>convé sigui XML</remarks>
+        </member>
+        <member name="M:CanLlistes.controlSessio.llistaParmsDeArxiu(System.String,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            detecta els paràmetres d'un arxiu ps1 usant la api de Microsoft
+            </summary>
+            <param name="arxiu">arxiu ps1 a analitzar</param>
+            <param name="parms">by ref. llistat de paràmetres</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.llistaCorrecte(CanLlistes.flux)">
+            <summary>
+            comprova si l'objecte flux és correcte per poder-hi operar
+            </summary>
+            <param name="llistaAComprovar">objecte flux de manipulació web</param>
+            <returns>true si es vàlid</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.escriuOutDeScript(System.String,System.String)">
+            <summary>
+            escriuel output, en l'arxiu que pertoqui segons constants de configuració 
+            </summary>
+            <param name="texte">text a desar</param>
+            <param name="arxiuScript">arxiu amb path del script</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.parametresDeScript(CanLlistes.script,System.Boolean,System.Boolean,System.String)">
+            <summary>
+            retorna la cadena que representa els paràmetres que s'han escollit per executar un script
+            </summary>
+            <param name="scriptADonarParms">nom del script</param>
+            <param name="input">entrada o sortida</param>
+            <param name="useLastInput">si es vol usar d'entrada el últim output de script executat</param>
+            <param name="correuDesti">opcional,si es de sortida cal el mail de desti</param>
+            <returns>cadena de paràmetres tipus shell</returns>
+        </member>
+        <member name="M:CanLlistes.controlSessio.itemDeField(System.String[])">
+            <summary>
+            crea un item per a una llista segons array de cadenes
+            </summary>
+            <param name="liniaCSV">Array de cadenes</param>
+            <returns>item de llista</returns>
+            <remarks> per ús exclusiu de diccioParametres</remarks>
+        </member>
+        <member name="T:CanLlistes.start">
+            <summary>
+            classe quen conté els mètodes de crida des del web start.aspx, la pàgina d'inici
+            </summary>
+        </member>
+        <member name="F:CanLlistes.start.Controlador">
+            <summary>
+            ha d'allotjar el controlador de la sessió que demana la pàgina
+            </summary>
+        </member>
+        <member name="M:CanLlistes.start.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida abans de mostrar el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CanLlistes.start.portal">
+            <summary>
+            Control portal.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Global.developing">
+            <summary>
+            for developing propouses enables multiple sessions on a single computer
+            </summary>
+        </member>
+        <member name="M:CanLlistes.Global.renewSession">
+            <summary>
+            Refreshes session object on IIS identified by session id
+            </summary>
+        </member>
+        <member name="M:CanLlistes.Global.anybodyExecuting(System.String)">
+            <summary>
+            checks whether any session is executing a stream related to an xml
+            </summary>
+            <param name="XMLfile">xml name to check</param>
+            <remarks> checks runningXML on every session
+            </remarks>
+            <returns> true si algu esta executant
+            </returns>
+        </member>
+        <member name="M:CanLlistes.Global.anybodyEditing(System.String,System.String)">
+            <summary>
+            comprova si algú esta editant un xml, per nom de correu destinació
+            </summary>
+            <param name="XMLfile">arxiu xml a cercar en sessions</param>
+            <param name="askingSession">hash de la sessió que ho demana perque no es detecti a si mateixa</param>
+            <returns>true si algu edita</returns>
+        </member>
+        <member name="M:CanLlistes.Global.killSession(System.String)">
+            <summary>
+            elimina del servidor la sessió de la que es dona el hash
+            </summary>
+            <param name="sessionToKill">hash de sessió a matar</param>
+            <returns>true si tot ha anat be</returns>
+        </member>
+        <member name="M:CanLlistes.Global.estalliureXML(System.String,System.String)">
+            <summary>
+            comprova si cap sessió es potencialment manipulador d'un xml donat
+            </summary>
+            <param name="XMLAmirar">nom de l'arxiu</param>
+            <param name="askingSession">hash de sessió que ho demana per no trobar-se a ella</param>
+            <returns>true si esta lliure</returns>
+        </member>
+        <member name="M:CanLlistes.Global.newObjectForTheActualSession">
+            <summary>
+            crea un objecte controlsessió nou segons la sessió actual
+            </summary>
+            <returns>objecte controlsessió</returns>
+        </member>
+        <member name="M:CanLlistes.Global.killOtherSessionsOfThisIP(System.String,System.String)">
+            <summary>
+            elimina de memória les altres sessions d'una mateixa ip
+            </summary>
+            <param name="ip">ip de la que cercar sessions</param>
+            <param name="sessioBona">la sessió que ho demana, no es borra a si mateixa</param>
+        </member>
+        <member name="T:CanLlistes.Main">
+            <summary>
+            classe de la pàgina mestra, que alberga el menú superior
+            </summary>
+        </member>
+        <member name="F:CanLlistes.Main.Controlador">
+            <summary>
+            ha d'allotjar el controlador de la sessió que demana la pàgina
+            </summary>
+        </member>
+        <member name="M:CanLlistes.Main.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida abans de mostrar el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.Main.TextBox1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            deprecated a referència d'antic etxtbox en menú sup.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.Main.clickInici(System.Object,System.EventArgs)">
+            <summary>
+            funció cridada per el menú superior
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.Main.clickLlistesActives(System.Object,System.EventArgs)">
+            <summary>
+            funció cridada per el menú superior
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.Main.clickNovaLlista(System.Object,System.EventArgs)">
+            <summary>
+            funció cridada per el menú superior
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CanLlistes.Main.StyleSection">
+            <summary>
+            Control StyleSection.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Main.Head1">
+            <summary>
+            Control Head1.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Main.form1">
+            <summary>
+            Control form1.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Main.titol">
+            <summary>
+            Control titol.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Main.ContentSection">
+            <summary>
+            Control ContentSection.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.Main.ScriptSection">
+            <summary>
+            Control ScriptSection.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="T:CanLlistes.editor">
+            <summary>
+            classe quen conté els mètodes de crida des del web editor.aspx
+            </summary>
+        </member>
+        <member name="F:CanLlistes.editor.Controlador">
+            <summary>
+            ha d'allotjar el controlador de la sessió que demana la pàgina
+            </summary>
+        </member>
+        <member name="F:CanLlistes.editor.estilBotoCss">
+            <summary>
+            cariable d'ús general per determinar l'estil dels botons en CSS
+            </summary>
+        </member>
+        <member name="M:CanLlistes.editor.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida abans de mostrar el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.editInpScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja editar un script d'entrada
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.editOutScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja editar un script de sortida
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.itemUpClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja apujar un item d'una llista
+            </summary>
+            <param name="sender">el botó del web que el crida, per discriminar la lista de items</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.itemDnClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja abaixar un item d'una llista
+            </summary>
+            <param name="sender">el botó del web que el crida, per discriminar la lista de items</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.addInpScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja afegir un script d'entrada
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.addOutScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es desitja afegir un script se sortida
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.closeSelectInputClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es tanca la finestra emetgent de scripts d'entrada
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.closeSelectOutputClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es tanca la finestra emetgent de scripts de sortida
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.remInpScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es polsa el botó, que ha d'eliminar un script d'entrada 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.remOutScriptClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es polsa el botó, que ha d'eliminar un script de sortida
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.desaLlistaClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es polsa el botó de desar llista
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.desaParmsEditantClick(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es polsa el botó de desar paràmetres que es veuen en el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.executaScriptEditant(System.Object,System.EventArgs)">
+            <summary>
+            funció disparada quan es polsa el botó d'executar script
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.desaMailClick(System.Object,System.EventArgs)">
+            <summary>
+            de crida per establir el nom de la llista segons objecte web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.deixaPaginaClick(System.Object,System.EventArgs)">
+            <summary>
+            estableix variables quan es deixa la pàgian d'edició
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.editor.executaIOmpleTextBoxes(System.Boolean)">
+            <summary>
+            crida la execució al controlador i estableix els objectes del web amb les dades retornades
+            </summary>
+            <param name="input">script d'entrada o sortida?</param>
+        </member>
+        <member name="M:CanLlistes.editor.netejaCosesScriptEditant">
+            <summary>
+            estableix el web i sessió, de manera que no e'edita cap script
+            </summary>
+        </member>
+        <member name="M:CanLlistes.editor.mostraObjectesParms(System.Boolean)">
+            <summary>
+            crea estructura de objectes d'edició de paràmetres de script dins el ID de HTML corresponent.
+            </summary>
+            <param name="input">format entrada o sortida?</param>
+        </member>
+        <member name="M:CanLlistes.editor.refrescaNomIListBoxes">
+            <summary>
+            estabelix o re-estableix els objectes del web tals que corresponguin a el flux corresponent
+            </summary>
+        </member>
+        <member name="M:CanLlistes.editor.mouElQueEdita(System.Boolean)">
+            <summary>
+            deprecated, trigger per saber si es mou el que edita, integrat ja en altres funcions
+            </summary>
+            <param name="input">entrada o sortida?</param>
+            <returns></returns>
+        </member>
+        <member name="M:CanLlistes.editor.sessioActiva">
+            <summary>
+            null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:CanLlistes.editor.mailDesti">
+            <summary>
+            Control mailDesti.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.amagatMail">
+            <summary>
+            Control amagatMail.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.botoOcultEnterTextbox">
+            <summary>
+            Control botoOcultEnterTextbox.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.GuardaNom">
+            <summary>
+            Control GuardaNom.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.scriptsInput">
+            <summary>
+            Control scriptsInput.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.inpBtUp">
+            <summary>
+            Control inpBtUp.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.inpBtDn">
+            <summary>
+            Control inpBtDn.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.addInpScr">
+            <summary>
+            Control addInpScr.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.scriptsOutput">
+            <summary>
+            Control scriptsOutput.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.outBtUp">
+            <summary>
+            Control outBtUp.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.outBtDn">
+            <summary>
+            Control outBtDn.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.addOutScr">
+            <summary>
+            Control addOutScr.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.popupInputs">
+            <summary>
+            Control popupInputs.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.popupWindowInputs">
+            <summary>
+            Control popupWindowInputs.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.inpScriptsDisponibles">
+            <summary>
+            Control inpScriptsDisponibles.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.popupOutputs">
+            <summary>
+            Control popupOutputs.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.popupWindowOutputs">
+            <summary>
+            Control popupWindowOutputs.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.outScriptsDisponibles">
+            <summary>
+            Control outScriptsDisponibles.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.labelEdicio">
+            <summary>
+            Control labelEdicio.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.parms">
+            <summary>
+            Control parms.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.labelExecucio">
+            <summary>
+            Control labelExecucio.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.outScript">
+            <summary>
+            Control outScript.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.errScript">
+            <summary>
+            Control errScript.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.editor.deixaPagina">
+            <summary>
+            Control deixaPagina.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="T:CanLlistes.state">
+            <summary>
+            classe quen conté els mètodes de crida des del web state.aspx
+            </summary>
+        </member>
+        <member name="F:CanLlistes.state.Controlador">
+            <summary>
+            ha d'allotjar el controlador de la sessió que demana la pàgina
+            </summary>
+        </member>
+        <member name="M:CanLlistes.state.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida abans de mostrar el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.state.tocarefrescar">
+            <summary>
+            determina si toca refrescar automàticament el web
+            </summary>
+            <returns>true si cal refrescar</returns>
+        </member>
+        <member name="M:CanLlistes.state.novaLlista(System.Object,System.EventArgs)">
+            <summary>
+            quan es polsa de crear una nova llista del menú lateral, redirigeix
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.state.editaLlista(System.Object,System.EventArgs)">
+            <summary>
+            quan es polsa d'editar un flux seleccionat al menú lateral
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.state.borraLlista(System.Object,System.EventArgs)">
+            <summary>
+            quan es polsa d'eliminar un flux seleccionat al menú lateral
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.state.executaFlux(System.Object,System.EventArgs)">
+            <summary>
+            quan es polsa d'executar un flux seleccionat al menú lateral
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.state.llistesActives_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            funció cridada quan es selecciona un flux, per a que es refresqui el text del web.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CanLlistes.state.llistesActives">
+            <summary>
+            Control llistesActives.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.state.outList">
+            <summary>
+            Control outList.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="T:CanLlistes.tools">
+            <summary>
+            classe de pàgina per previsió d'ampliació, per ara no s'usa
+            </summary>
+        </member>
+        <member name="F:CanLlistes.tools.Label2">
+            <summary>
+            Control Label2.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="T:CanLlistes.novaEntrada">
+            <summary>
+            classe quen conté els mètodes de crida des del web novaEntrada.aspx
+            </summary>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.Controlador">
+            <summary>
+            ha d'allotjar el controlador de la sessió que demana la pàgina
+            </summary>
+        </member>
+        <member name="M:CanLlistes.novaEntrada.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida abans de mostrar el web
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CanLlistes.novaEntrada.desar_Click(System.Object,System.EventArgs)">
+            <summary>
+            funció que es crida en polsar el cotó desar, codi principal de la pàgina
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.Label1">
+            <summary>
+            Control Label1.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.nomNouScript">
+            <summary>
+            Control nomNouScript.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.desar">
+            <summary>
+            Control desar.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.labelError">
+            <summary>
+            Control labelError.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.Label2">
+            <summary>
+            Control Label2.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:CanLlistes.novaEntrada.correusNouScript">
+            <summary>
+            Control correusNouScript.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+    </members>
+</doc>

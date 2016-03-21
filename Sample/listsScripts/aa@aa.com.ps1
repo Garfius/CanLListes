@@ -1,0 +1,3 @@
+Remove-Item "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\listsScripts\aa@aa.com_lastOut.txt"
+& "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\inputScripts\estatica1.ps1" >> "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\listsScripts\aa@aa.com_lastOut.txt"
+& "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\outputScripts\localExchange.ps1" -listMailName 'aa@aa.com' -input "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\listsScripts\aa@aa.com_lastOut.txt"

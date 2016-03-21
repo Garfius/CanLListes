@@ -1,0 +1,372 @@
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 5 jsonDemo.ps1
+problema carregant el valor del parametre: 5 jsonDemo.ps1
+problema carregant el valor del parametre: 2 localExchange.ps1
+problema carregant el valor del parametre: 5 jsonDemo.ps1
+problema carregant el valor del parametre: 5 jsonDemo.ps1
+problema carregant el valor del parametre: 2 localExchange.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+error executant script: jsonDemo.ps1
+System.Management.Automation.CommandNotFoundException: El término 'C:\Users\garf\Google' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 594
+System.Management.Automation.CommandNotFoundException: El término 'C:\Users\garf\Google' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 594
+System.Management.Automation.CommandNotFoundException: El término 'jklghk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 595
+System.Management.Automation.CommandNotFoundException: El término 'jklghk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 595
+System.Management.Automation.CommandNotFoundException: El término 'jklghk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 595
+System.Management.Automation.CommandNotFoundException: El término 'jklghk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.Runspaces.Pipeline.Invoke()
+   en CanLlistes.controlSessio.RunScript(String path, String& standardOutput, String& errorOutput) en c:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\controlSessio.cs:línea 595
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 jsonDemo.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+problema carregant el valor del parametre: 0 localExchange.ps1
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\jsonDemo_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\wsCurro_doctorat_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\wsCurro_doctorat_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\wsCurro_doctorat_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\wsCurro_doctorat_parms.csv
+Error parssejant csv :C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1\Sample\Sample\inputScripts\wsCurro_doctorat_parms.csv
+problema carregant el valor del parametre: 3 wsCurro_doctorat.ps1
+problema carregant el valor del parametre: 3 wsCurro_doctorat.ps1
+problema carregant el valor del parametre: 3 wsCurro_doctorat.ps1
+problema carregant el valor del parametre: 3 wsCurro_doctorat.ps1

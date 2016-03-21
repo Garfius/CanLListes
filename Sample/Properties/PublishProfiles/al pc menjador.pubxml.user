@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Z:\wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/24/2014 05:51:10</publishTime>
+    </File>
+    <File Include="bin/ASP.Web.UI.PopupControl.dll">
+      <publishTime>02/12/2015 11:48:45</publishTime>
+    </File>
+    <File Include="bin/ASP.Web.UI.PopupControl.dll.bak">
+      <publishTime>10/23/2013 14:32:59</publishTime>
+    </File>
+    <File Include="bin/ASP.Web.UI.PopupControl.dll.refresh">
+      <publishTime>10/23/2013 14:23:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/Sample.dll">
+      <publishTime>12/10/2015 19:31:43</publishTime>
+    </File>
+    <File Include="bin/Sample.dll.config">
+      <publishTime>01/12/2015 19:51:38</publishTime>
+    </File>
+    <File Include="bin/Sample.XML">
+      <publishTime>12/10/2015 19:31:43</publishTime>
+    </File>
+    <File Include="bin/System.Management.Automation.dll">
+      <publishTime>10/07/2015 13:01:33</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/24/2014 05:51:12</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2015 13:19:31</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="editor.aspx">
+      <publishTime>12/10/2015 19:31:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="inputScripts/aaa_lastOut.txt">
+      <publishTime>10/27/2015 18:38:25</publishTime>
+    </File>
+    <File Include="inputScripts/estatica1.ps1">
+      <publishTime>10/23/2015 13:49:55</publishTime>
+    </File>
+    <File Include="inputScripts/estatica1_lastOut.txt">
+      <publishTime>10/27/2015 17:15:40</publishTime>
+    </File>
+    <File Include="inputScripts/jsonDemo.ps1">
+      <publishTime>10/27/2015 20:31:52</publishTime>
+    </File>
+    <File Include="inputScripts/jsonDemo_lastOut.txt">
+      <publishTime>10/23/2015 13:35:07</publishTime>
+    </File>
+    <File Include="inputScripts/jsonDemo_parms.csv">
+      <publishTime>10/26/2015 12:04:48</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro.ps1">
+      <publishTime>10/26/2015 10:08:31</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_doctorat.ps1">
+      <publishTime>10/26/2015 10:08:31</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_doctorat_lastOut.txt">
+      <publishTime>10/27/2015 10:57:58</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_doctorat_parms.csv">
+      <publishTime>10/26/2015 14:10:46</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_FormacioContinua.ps1">
+      <publishTime>10/26/2015 10:08:34</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_FormacioContinua_parms.csv">
+      <publishTime>10/26/2015 14:12:12</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_grau.ps1">
+      <publishTime>10/26/2015 10:08:30</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_grau_lastOut.txt">
+      <publishTime>10/27/2015 08:42:57</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_grau_parms.csv">
+      <publishTime>10/26/2015 14:12:30</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_master.ps1">
+      <publishTime>10/26/2015 10:08:35</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_master_parms.csv">
+      <publishTime>10/26/2015 14:12:30</publishTime>
+    </File>
+    <File Include="inputScripts/wsCurro_parms.csv">
+      <publishTime>10/26/2015 14:10:46</publishTime>
+    </File>
+    <File Include="listsScripts/Escriure mail aqui.ps1">
+      <publishTime>10/27/2015 17:05:16</publishTime>
+    </File>
+    <File Include="listsScripts/prova%40uvic.cat.ps1">
+      <publishTime>10/23/2015 18:02:14</publishTime>
+    </File>
+    <File Include="listsScripts/runAllListScripts.ps1">
+      <publishTime>10/23/2015 15:17:09</publishTime>
+    </File>
+    <File Include="listsScripts/substact.ps1">
+      <publishTime>10/23/2015 13:47:24</publishTime>
+    </File>
+    <File Include="listsScripts/substractTemp.txt">
+      <publishTime>10/23/2015 13:50:08</publishTime>
+    </File>
+    <File Include="listsXML/Escriure mail aqui.xml">
+      <publishTime>10/27/2015 16:56:04</publishTime>
+    </File>
+    <File Include="listsXML/la prova de la hostia.xml">
+      <publishTime>10/27/2015 17:06:18</publishTime>
+    </File>
+    <File Include="listsXML/moltescoses.xml">
+      <publishTime>10/27/2015 19:46:50</publishTime>
+    </File>
+    <File Include="listsXML/prova%40uvic.cat.xml">
+      <publishTime>10/23/2015 18:02:01</publishTime>
+    </File>
+    <File Include="listsXML/prova1%40uoc.edu.xml">
+      <publishTime>10/23/2015 16:55:41</publishTime>
+    </File>
+    <File Include="listsXML/prova2%40uoc.test.xml">
+      <publishTime>10/23/2015 17:21:28</publishTime>
+    </File>
+    <File Include="log/log.txt">
+      <publishTime>10/27/2015 13:56:07</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>12/09/2015 16:55:25</publishTime>
+    </File>
+    <File Include="novaEntrada.aspx">
+      <publishTime>10/27/2015 17:52:43</publishTime>
+    </File>
+    <File Include="outputScripts/localExchange-dolent.ps1">
+      <publishTime>10/23/2015 17:13:13</publishTime>
+    </File>
+    <File Include="outputScripts/localExchange.ps1">
+      <publishTime>10/27/2015 18:41:44</publishTime>
+    </File>
+    <File Include="outputScripts/localExchange_lastOut.txt">
+      <publishTime>10/27/2015 18:00:59</publishTime>
+    </File>
+    <File Include="outputScripts/localExchange_parms.csv">
+      <publishTime>10/27/2015 16:54:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/10/2015 13:19:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/10/2015 12:55:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.js">
+      <publishTime>09/10/2015 12:54:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>09/10/2015 12:54:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.map">
+      <publishTime>09/10/2015 12:54:27</publishTime>
+    </File>
+    <File Include="start.aspx">
+      <publishTime>11/06/2015 18:37:54</publishTime>
+    </File>
+    <File Include="state.aspx">
+      <publishTime>02/11/2015 13:07:08</publishTime>
+    </File>
+    <File Include="tools.aspx">
+      <publishTime>10/14/2015 11:45:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/12/2015 13:14:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

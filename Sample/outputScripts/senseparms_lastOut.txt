@@ -1,0 +1,2 @@
+Cadena executada: "& "C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\outputScripts\senseparms.ps1" -inputMails 'C:\Users\garf\Google Drive\UOC\TFC\asp-samples\Sample_V1 (1)\Sample\Sample\inputScripts\estatica1_lastOut.txt'"
+-----------------------------------

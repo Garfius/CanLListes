@@ -1,0 +1,155 @@
+http://www.msexchange.org/software/List-Servers-Mgmt/
+http://www.slipstick.com/exchange/exchange-server-mailing-lists/
+https://en.wikipedia.org/wiki/Category:Free_mailing_list_software
+
+
+ikakura review
+http://www.msexchange.org/articles-tutorials/product-reviews/Product_Review_ReddFish_Intergalactics_Ikakura_list_server.html
+
+http://192.168.222.60/index.php/users2
+
+jwt <-- java web tokens
+
+create user lector identified by 'l3ct0r';
+
+GRANT ALL PRIVILEGES ON employees.* TO 'lector'@'%' identified by 'l3ct0r';  <-- per accés remot
+
+flush privileges;
+
+
+http://gridlab.dimes.unical.it/lackovic/eclipse-tomcat-ubuntu-jersey/
+
+http://www.programmableweb.com/news/how-to-build-restful-apis-using-php-and-laravel/how-to/2014/08/13 <-- json laravel ben xplicat
+http://www.sitepoint.com/build-rest-resources-laravel/ <-- millor encara
+
+
+use employees;
+ALTER TABLE `employees`	ADD COLUMN `mail` CHAR(50) NULL AFTER `hire_date`;
+update employees emp set mail=lower(concat(emp.first_name ,".", emp.last_name , "@uoc.test"))
+
+
+select mail from employees emp inner join titles tit on (title = "Senior Engineer") and (emp.emp_no=tit.emp_no)
+
+-----------millorar json posar rest -----------------
+php artisan controller:make serveiProves  <-- crea /var/www/html/prova/app/controllers/serveiProves.php
+http://laravel.com/docs/4.2/eloquent <-- evitar sql injection
+http://laravel.com/docs/4.2/routing 
+http://laravel.com/docs/4.2/controllers <-- per acabar-ho de fer maco
+---------------------------------
+Route::get('consulta', function()
+{
+	if(count($_GET) ==0 ){
+		//sense paràmetres
+		//cal un view amb tot?
+		
+		$titulacionsDisp = DB::select('select distinct title from titles');
+		$sexesDisp = DB::select('select distinct gender from employees');
+		$esDeptManager = array("si","no")
+		$nombresDeptDisp = DB::select('select distinct dept_no from departments');
+		$nomsDeptDisp = DB::select('select distinct dept_name from departments');
+		
+		/*$array1=("titulacionsDisp",$titulacionsDisp)
+		$array2=("sexesDisp",$sexesDisp)
+		$array3=("esDeptManager",$esDeptManager)
+		$array4=("nombresDeptDisp",$nombresDeptDisp)
+		$array5=("nomsDeptDisp",$nomsDeptDisp)*/
+		
+		$array = array("titol" =>$array1,"foo2" => $array2);
+		return Response::json($array);	
+		
+	}else{
+		//amb paràmetres
+		
+		$noms = DB::select('select mail from employees where employees.first_name=?', array('Chirstian'));
+		$array = array("foo" =>"hello","foo2" => $noms);
+		return Response::json($array);	
+	}
+	
+});
+
+----------------------config database laravel----------------------------
+		'mysql' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'employees',
+			'username'  => 'lector',
+			'password'  => 'l3ctor',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+-----------------------------
+
+
+---------------------jquery bootstrap-------------
+http://www.codeproject.com/Articles/815916/Create-an-ASP-NET-Web-Forms-Application-using-Boot?msg=5140794#xx5140794xx
+
+http://devproconnections.com/aspnet/aspnet-localization-working-multi-language-web-applications
+
+
+http://www.aspsnippets.com/Articles/ASPNet-Persist-Dynamic-Controls-Dynamic-Controls-disappear-after-PostBack-in-ASPNet.aspx
+
+-------------principi minima sorpersa-----------json vs xml-----------
+https://es.wikipedia.org/wiki/Principio_de_la_M%C3%ADnima_Sorpresa
+------------hashtable vs diccionary---------------------
+http://www.codeproject.com/Tips/602537/Hashtable-vs-Dictionary
+---------------------COM  que tot es base texte com linux pot fallar un punt i es pot arreclar fàcilment, els demes funcinen---------------------------
+
+---------------has agafat de aqui:
+http://stackoverflow.com/questions/6115721/how-to-save-restore-serializable-object-to-from-file
+
+---------------------la llibreria per parsejar powershells----------------------------
+Copy ([PSObject].Assembly.Location) ~/Desktop
+-----------------------dll's baoxades:--------------
+ASP.Web.UI.PopupControl.dll
+System.Management.Automation.dll
+http://stackoverflow.com/questions/26390833/how-to-discover-powershell-script-parameters-in-c-sharp
+------------------------popup 2.0------------------------
+http://www.codeproject.com/Articles/34996/ASP-NET-AJAX-Control-Toolkit-ModalPopupExtender-Co
+http://stackoverflow.com/questions/26174452/asp-net-webforms-modal-popup-window
+
+-------------crackejar popup-----------------
+C:\MyFile\UserCount.xml
+<?xml version="1.0" encoding="utf-8"?>
+<FileAccess>
+  <Count>-99999</Count>
+</FileAccess>
+!!!!crear carpeta!!!
+----------------------------to-do
+contemplar majuscules-minuscules en parms de csv?
+--------------------------------------------
+            /* ha de carregar els controls del script, que han de ser reflexe dels paràmetres del ps1 i de els opcions del script_parms.csv, tot dins l'objecte de llista o no?
+             * potser millor guardar els strings i carregar les opcions del ps1
+             * llavors s'ha de seleccionar dels dropdown la copcio del objecte
+             * 
+             * val:1- carregues opcions del ps1
+             * 2- busques valors possibles en csv
+             * 3- crees objectes segons si has trobat valors en csv
+             * 4- estableixes valors segons objecte en ram (sessio si nou o nom si desat)
+             * 
+            */
+            
+--------------------
+powershell asincron
+http://blogs.msdn.com/b/kebab/archive/2014/04/28/executing-powershell-scripts-from-c.aspx
+-------------------------
+Visual studio hotkeys
+http://stackoverflow.com/questions/982677/visual-studio-command-to-collapse-all-sections-of-code
+https://msdn.microsoft.com/en-us/library/da5kh0wa.aspx
+---------instalar asp.net 4.5 en iisexpress------------------------
+------------------------------------
+A causa d'imperatius laborals he hagut d'apresurar-me a picar codi, per el que ja disposo de una versió prèvia del subjecte del treball. Amb l'ús del pc del menjador li deixo publicada aquesta versió: http://garfius.no-ip.org/ , el codi de la qual se'l pot baixar de: http://garfius.no-ip.org/PerElProfe.rar .
+
+Procuraré que estigui activa la major part del temps, peró no ho puc garantir.
+--------------------
+parametres reservats
+https://technet.microsoft.com/en-us/library/hh847768.aspx
+
+-------------------------
+response vs redirect
+
+http://www.developer.com/net/asp/article.php/3299641/ServerTransfer-Vs-ResponseRedirect.htm
+
+----------------aritmetica subjacent en la naturalesa de les llistes---------
+
+------------utilitza #region Drag-drop handling events----------

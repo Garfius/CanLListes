@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<fluxSeriable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mailDesti>hola@adeu.cat</mailDesti>
+  <scriptsInput>
+    <scriptSeriable>
+      <nom>estatica1.ps1</nom>
+      <nomsParms />
+      <valorsParms />
+      <interficieSortidaSencera>true</interficieSortidaSencera>
+      <addSubstract>true</addSubstract>
+      <input>true</input>
+    </scriptSeriable>
+    <scriptSeriable>
+      <nom>jsonDemo.ps1</nom>
+      <nomsParms>
+        <string>esdeptmanager</string>
+        <string>nombresdept</string>
+        <string>sexes</string>
+        <string>titulacions</string>
+        <string>prova</string>
+      </nomsParms>
+      <valorsParms>
+        <string>-disabled-</string>
+        <string>d003</string>
+        <string>M</string>
+        <string>-disabled-</string>
+        <string />
+      </valorsParms>
+      <interficieSortidaSencera>true</interficieSortidaSencera>
+      <addSubstract>false</addSubstract>
+      <input>true</input>
+    </scriptSeriable>
+    <scriptSeriable>
+      <nom>jsonDemo.ps1</nom>
+      <nomsParms>
+        <string>esdeptmanager</string>
+        <string>nombresdept</string>
+        <string>sexes</string>
+        <string>titulacions</string>
+        <string>prova</string>
+      </nomsParms>
+      <valorsParms>
+        <string>-disabled-</string>
+        <string>d001</string>
+        <string>M</string>
+        <string>-disabled-</string>
+        <string />
+      </valorsParms>
+      <interficieSortidaSencera>true</interficieSortidaSencera>
+      <addSubstract>true</addSubstract>
+      <input>true</input>
+    </scriptSeriable>
+  </scriptsInput>
+  <scriptsOutput>
+    <scriptSeriable>
+      <nom>localExchange.ps1</nom>
+      <nomsParms>
+        <string>nomeslocal</string>
+        <string>ocult</string>
+        <string>nomllarg</string>
+        <string>moderador</string>
+      </nomsParms>
+      <valorsParms>
+        <string>-disabled-</string>
+        <string>-disabled-</string>
+        <string>elcapdeporc BO</string>
+        <string />
+      </valorsParms>
+      <interficieSortidaSencera>true</interficieSortidaSencera>
+      <addSubstract>true</addSubstract>
+      <input>false</input>
+    </scriptSeriable>
+  </scriptsOutput>
+</fluxSeriable>

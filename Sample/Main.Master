@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="CanLlistes.Main" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+<asp:contentplaceholder id="StyleSection" runat="server" />
+</asp:ContentPlaceHolder>
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <title>House of the lists</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Administration lists application">
+    <meta name="author" content="Gerard Forcada Bigas">
+    <%-- Style Section --%>
+    <%: Styles.Render("~/bundles/BootstrapCss")  %>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <!-- Static navbar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="titol" runat="server" class="navbar-brand" >CanLlistes</a>
+                    </div>
+                    <div class="navbar-collapse collapse" runat="server">
+                        <ul class="nav navbar-nav">
+
+                            <li>
+                                <asp:LinkButton runat="server" OnClick="clickInici">Start Page</asp:LinkButton></li>
+                            <li>
+                                <asp:LinkButton runat="server" OnClick="clickLlistesActives">Active Streams</asp:LinkButton></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">New<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><asp:LinkButton runat="server" OnClick="clickNovaLlista">New list</asp:LinkButton></li>
+                                    <li><a href="novaEntrada.aspx">New static entry</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="tools.aspx">Tools</a></li>
+                            <li><a href="#" onclick="fesAbout()">About</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </div>
+            <!-- Content Page Section -->
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentSection" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <!-- /container -->
+        <%-- Script Section --%>
+        <%: Scripts.Render("~/bundles/jQuery")  %>
+        <asp:ContentPlaceHolder ID="ScriptSection" runat="server" />
+    </form>
+    <script>
+
+        function fesAbout() {
+            //document.getElementById("demo").innerHTML = "Paragraph changed.";
+            alert('By Gerard Forcada garfius@gmail.com');
+        }
+
+    </script>
+
+</body>
+</html>
