@@ -11,3 +11,5 @@ This type written in ASPX WEB Forms, which largely uses standard controls. It is
 for mobile devices, and that its not it's scope. And although it is not obvious that web
 design is a central point in this solution, the solution has proven its support on Common 
 browsers (Chrome, Firefox, i.e., Edge)
+
+Developed using VS 2013, tested on VS 2015, written in c#, powershell and JS.
